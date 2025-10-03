@@ -1,0 +1,84 @@
+.edit-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #398fe6 0%, #57ea80 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.editform-container {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  border: 2px solid #ccc;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1abc9c;
+  margin-bottom: 30px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #234361;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="number"] {
+  background: #fafcfe;
+  border: 2px solid #0bbdc6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 94%;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.edit-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group.center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-update {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  width: 70%;
+  max-width: 250px;
+}
+
+.btn-update:hover {
+  background-color: #16a085;
+  transform: scale(1.03);
+}
